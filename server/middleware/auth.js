@@ -1,6 +1,14 @@
 const jwt = require('jsonwebtoken');
 const { users } = require('../data/store');
 
+// Ensure JWT_SECRET is configured
+if (!process.env.JWT_SECRET) {
+  console.error('FATAL ERROR: JWT_SECRET is not defined.');
+  if (process.env.NODE_ENV === 'production') {
+    process.exit(1);
+  }
+}
+
 const auth = (req, res, next) => {
   try {
     const token = req.header('Authorization')?.replace('Bearer ', '');

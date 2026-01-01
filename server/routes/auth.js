@@ -40,9 +40,15 @@ router.post('/register', async (req, res) => {
     users.push(newUser);
 
     // Generate token
+    const jwtSecret = process.env.JWT_SECRET;
+    if (!jwtSecret) {
+      console.error('FATAL ERROR: JWT_SECRET is not defined.');
+      return res.status(500).json({ error: 'Server configuration error' });
+    }
+
     const token = jwt.sign(
       { userId: newUser.id },
-      process.env.JWT_SECRET || 'default_secret_key',
+      jwtSecret,
       { expiresIn: process.env.JWT_EXPIRE || '7d' }
     );
 
@@ -84,10 +90,17 @@ router.post('/login', async (req, res) => {
       return res.status(401).json({ error: 'Invalid credentials' });
     }
 
+    // Ensure JWT_SECRET is set
+    const jwtSecret = process.env.JWT_SECRET;
+    if (!jwtSecret) {
+      console.error('FATAL ERROR: JWT_SECRET is not defined.');
+      return res.status(500).json({ error: 'Server configuration error' });
+    }
+
     // Generate token
     const token = jwt.sign(
       { userId: user.id },
-      process.env.JWT_SECRET || 'default_secret_key',
+      jwtSecret,
       { expiresIn: process.env.JWT_EXPIRE || '7d' }
     );
 

@@ -147,6 +147,14 @@ See [USER_GUIDE.md](docs/USER_GUIDE.md) for detailed user instructions.
 - CORS configuration
 - Secure file upload handling
 
+### Known Security Notes
+
+1. **Multer Version**: The current version of multer (1.4.5-lts.1) has known vulnerabilities. For production use, upgrade to multer 2.x
+2. **JWT Secret**: Always set a strong, unique JWT_SECRET in production environments. The application will fail to start in production mode without it.
+3. **Rate Limiting**: Production deployments should implement rate limiting on all API endpoints to prevent abuse. Use `express-rate-limit` package.
+4. **File Upload**: Consider adding magic number validation for uploaded files in production
+5. **Database**: Replace in-memory storage with a proper database with parameterized queries to prevent SQL injection
+
 ## Production Deployment
 
 For production deployment:

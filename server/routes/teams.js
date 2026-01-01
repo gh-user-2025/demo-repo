@@ -60,9 +60,20 @@ router.put('/:id', auth, (req, res) => {
     }
 
     const team = teams[teamIndex];
+    
+    // Only allow specific fields to be updated
+    const allowedUpdates = ['name', 'description', 'members'];
+    const updates = {};
+    
+    allowedUpdates.forEach(field => {
+      if (req.body[field] !== undefined) {
+        updates[field] = req.body[field];
+      }
+    });
+
     const updatedTeam = {
       ...team,
-      ...req.body,
+      ...updates,
       id: team.id,
       createdAt: team.createdAt
     };
