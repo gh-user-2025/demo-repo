@@ -5,7 +5,7 @@ const users = [
   {
     id: '1',
     email: 'admin@example.com',
-    password: '$2a$10$XQJ5Y8K9mN.L3Q9X8Y.Z8.5Y8K9mN.L3Q9X8Y.Z8', // 'admin123' hashed
+    password: '$2a$10$8o19VrH/Po9nDxHuLTFXQ.47j4M8U7k/W5TCMNWebM1etqdjHhwBq', // 'admin123' hashed
     name: 'Admin User',
     role: 'admin',
     avatar: null,
@@ -14,7 +14,7 @@ const users = [
   {
     id: '2',
     email: 'manager@example.com',
-    password: '$2a$10$XQJ5Y8K9mN.L3Q9X8Y.Z8.5Y8K9mN.L3Q9X8Y.Z8', // 'manager123' hashed
+    password: '$2a$10$tNdMw71xs0DhdbKXULHZGOFAxnL9bcyJ.P8uhAeY0cLPMTG8DiJ9W', // 'manager123' hashed
     name: 'Project Manager',
     role: 'manager',
     avatar: null,
@@ -23,7 +23,7 @@ const users = [
   {
     id: '3',
     email: 'developer@example.com',
-    password: '$2a$10$XQJ5Y8K9mN.L3Q9X8Y.Z8.5Y8K9mN.L3Q9X8Y.Z8', // 'dev123' hashed
+    password: '$2a$10$mbI1dsNNpqCjUhZvLP9Zse.tJn.nV8gSce0.BEg5z0KNYMsyZ2eku', // 'dev123' hashed
     name: 'Developer',
     role: 'developer',
     avatar: null,
@@ -41,7 +41,7 @@ const projects = [
     endDate: '2024-06-30',
     progress: 45,
     ownerId: '2',
-    teamMembers: ['2', '3'],
+    teamMembers: ['1', '2', '3'],
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   }
