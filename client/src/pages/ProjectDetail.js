@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { projectAPI, taskAPI, userAPI } from '../services/api';
-import { FaArrowLeft, FaPlus, FaEdit, FaTrash } from 'react-icons/fa';
+import { FaArrowLeft, FaPlus } from 'react-icons/fa';
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -23,6 +23,7 @@ const ProjectDetail = () => {
 
   useEffect(() => {
     loadProjectData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const loadProjectData = async () => {

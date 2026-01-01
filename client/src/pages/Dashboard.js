@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { analyticsAPI, taskAPI, activityLogs } from '../services/api';
+import { analyticsAPI, taskAPI } from '../services/api';
 import { FaProjectDiagram, FaTasks, FaCheckCircle, FaExclamationTriangle } from 'react-icons/fa';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 

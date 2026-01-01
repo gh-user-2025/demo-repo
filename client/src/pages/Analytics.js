@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { analyticsAPI, userAPI } from '../services/api';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
+import { analyticsAPI } from '../services/api';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const Analytics = () => {
   const [dashboardData, setDashboardData] = useState(null);

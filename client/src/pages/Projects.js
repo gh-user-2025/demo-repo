@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { projectAPI, userAPI } from '../services/api';
+import { projectAPI } from '../services/api';
 import { FaPlus } from 'react-icons/fa';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-  const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
@@ -19,7 +18,6 @@ const Projects = () => {
 
   useEffect(() => {
     loadProjects();
-    loadUsers();
   }, []);
 
   const loadProjects = async () => {
@@ -30,15 +28,6 @@ const Projects = () => {
       console.error('Error loading projects:', error);
     } finally {
       setLoading(false);
-    }
-  };
-
-  const loadUsers = async () => {
-    try {
-      const response = await userAPI.getAll();
-      setUsers(response.data);
-    } catch (error) {
-      console.error('Error loading users:', error);
     }
   };
 
