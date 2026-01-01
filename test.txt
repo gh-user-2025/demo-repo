@@ -1,0 +1,9 @@
+This is a test file for demo-repo.
+
+Purpose: Demonstrate basic file structure and testing concepts.
+
+Issue Reference: https://m365cpi28770203.sharepoint.com/sites/Demo-Project/ProjectALibrary/Document.docx?d=w7a789c475fdc413e8afffe38d4a4229e
+
+Note: The referenced SharePoint document is not accessible from automated environments.
+If you need specific functionality implemented based on that document, please provide
+the requirements in the issue description or comments.
