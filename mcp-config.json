@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "demo-repo": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
