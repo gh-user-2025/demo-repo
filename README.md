@@ -2,6 +2,29 @@
 
 A modern, web-based project management system for planning, tracking, and collaborating on projects.
 
+## Quick Start
+
+```bash
+# 1. Clone and navigate to the repository
+git clone <repository-url>
+cd demo-repo
+
+# 2. Install all dependencies
+npm run install-all
+
+# 3. Set up environment variables
+cp .env.example .env
+
+# 4. Run the application (in separate terminals)
+npm run server    # Terminal 1 - Backend
+npm run client    # Terminal 2 - Frontend
+
+# 5. Run tests
+npm test
+```
+
+Access the application at http://localhost:3000
+
 ## Features
 
 - **Project Management**: Create, update, and track multiple projects
@@ -33,36 +56,57 @@ A modern, web-based project management system for planning, tracking, and collab
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+- **Node.js**: v16.0.0 or higher (v18.x or v20.x recommended)
+- **npm**: v8.0.0 or higher (comes with Node.js)
+- **Git**: For cloning the repository
+
+To check your current versions:
+```bash
+node --version
+npm --version
+```
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone <repository-url>
-cd project-management-system
+cd demo-repo
 ```
 
-2. Install dependencies:
+2. **Install all dependencies (backend + frontend):**
 ```bash
 npm run install-all
 ```
 
-3. Set up environment variables:
+This single command installs dependencies for both the server and client.
+
+Alternatively, install separately:
+```bash
+# Install server dependencies
+npm install
+
+# Install client dependencies
+cd client
+npm install
+cd ..
+```
+
+3. **Set up environment variables:**
 ```bash
 cp .env.example .env
 ```
 
 Edit `.env` and configure:
-- `JWT_SECRET`: Your secret key for JWT tokens
+- `JWT_SECRET`: Your secret key for JWT tokens (required - change in production!)
 - `PORT`: Backend server port (default: 5000)
+- `NODE_ENV`: Set to `development` for local development
 
 ### Running the Application
 
-#### Development Mode
+#### Development Mode (Recommended for Local Development)
 
-Start both backend and frontend:
+**Option 1: Run both servers separately (recommended)**
 
 Backend (Terminal 1):
 ```bash
@@ -74,17 +118,101 @@ Frontend (Terminal 2):
 npm run client
 ```
 
+**Option 2: Run backend only**
+```bash
+npm run dev
+```
+
+Then navigate to `client/` and run `npm start` separately.
+
 #### Production Mode
 
-Build and run:
+Build the React app and serve it from the Express server:
 ```bash
 npm run build
 npm start
 ```
 
 The application will be available at:
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
+- **Frontend**: http://localhost:3000 (development) or http://localhost:5000 (production)
+- **Backend API**: http://localhost:5000/api
+- **Health Check**: http://localhost:5000/api/health
+
+### Running Tests
+
+The project uses Jest for backend testing and React Testing Library for frontend testing.
+
+**Run all tests (backend + frontend):**
+```bash
+npm test
+```
+
+**Run backend tests only:**
+```bash
+npm run test:server
+```
+
+**Run frontend tests only:**
+```bash
+npm run test:client
+```
+
+**Run tests in watch mode (for development):**
+```bash
+npm run test:watch
+```
+
+**Frontend tests in watch mode:**
+```bash
+cd client
+npm test
+```
+
+### Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm start` | Run production server (requires build) |
+| `npm run dev` | Run backend in development mode with nodemon |
+| `npm run server` | Run backend in development mode |
+| `npm run client` | Run React frontend in development mode |
+| `npm run install-all` | Install all dependencies (root + client) |
+| `npm run build` | Build React app for production |
+| `npm test` | Run all tests (backend + frontend) |
+| `npm run test:server` | Run backend tests only |
+| `npm run test:client` | Run frontend tests only |
+| `npm run test:watch` | Run backend tests in watch mode |
+
+### Troubleshooting
+
+**Port already in use:**
+```bash
+# Find process using port 5000 or 3000
+lsof -i :5000
+lsof -i :3000
+
+# Kill the process
+kill -9 <PID>
+```
+
+**Module not found errors:**
+```bash
+# Clear node_modules and reinstall
+rm -rf node_modules client/node_modules
+npm run install-all
+```
+
+**JWT_SECRET error:**
+Make sure you've copied `.env.example` to `.env` and the JWT_SECRET is set.
+
+**Tests failing:**
+```bash
+# Clear Jest cache
+npx jest --clearCache
+
+# Run tests with verbose output
+npm test -- --verbose
+```
 
 ## Demo Credentials
 
@@ -125,10 +253,35 @@ project-management-system/
 ├── uploads/              # File uploads directory
 ├── docs/                 # Documentation
 ├── .env.example          # Environment variables template
+├── jest.config.js        # Jest configuration for backend tests
 ├── .gitignore
 ├── package.json
 └── README.md
 ```
+
+### Test Structure
+
+```
+Tests/
+├── server/
+│   ├── routes/__tests__/
+│   │   └── auth.test.js           # Auth API endpoint tests
+│   └── middleware/__tests__/
+│       └── auth.test.js           # Auth middleware tests
+└── client/src/
+    ├── components/__tests__/
+    │   └── Layout.test.js         # Layout component tests
+    ├── pages/__tests__/
+    │   └── Login.test.js          # Login page tests
+    ├── services/__tests__/
+    │   └── api.test.js            # API service tests
+    └── setupTests.js              # Test configuration
+```
+
+**Testing Technologies:**
+- **Backend**: Jest + Supertest for API integration tests
+- **Frontend**: Jest + React Testing Library for component tests
+- **Coverage**: Run `npm test -- --coverage` to see test coverage reports
 
 ## API Documentation
 
