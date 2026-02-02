@@ -1,0 +1,218 @@
+name: Azure Container Apps Deployment
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
+  AZURE_TENANT_ID: ${{ vars.AZURE_TENANT_ID }}
+  AZURE_SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+  AZURE_ENV_NAME: ${{ vars.AZURE_ENV_NAME }}
+  AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install root dependencies
+      run: npm ci
+
+    - name: Install client dependencies
+      run: |
+        cd client
+        npm ci
+
+    - name: Run backend tests
+      run: npm run test:server
+
+    - name: Run frontend tests
+      run: npm run test:client
+
+    - name: Build React frontend
+      run: |
+        cd client
+        npm run build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-artifacts
+        path: client/build/
+        retention-days: 1
+
+  docker-build-push:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    
+    outputs:
+      image-tag: ${{ steps.image.outputs.tag }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Azure login
+      uses: azure/login@v2
+      with:
+        client-id: ${{ env.AZURE_CLIENT_ID }}
+        tenant-id: ${{ env.AZURE_TENANT_ID }}
+        subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+    - name: Get Azure Container Registry name
+      id: acr
+      run: |
+        ACR_NAME=$(az acr list --resource-group rg-${{ env.AZURE_ENV_NAME }} --query "[0].name" -o tsv)
+        echo "name=$ACR_NAME" >> $GITHUB_OUTPUT
+        echo "login-server=$ACR_NAME.azurecr.io" >> $GITHUB_OUTPUT
+
+    - name: Build and push Docker image
+      id: image
+      run: |
+        az acr login --name ${{ steps.acr.outputs.name }}
+        IMAGE_TAG="${{ github.sha }}"
+        IMAGE_NAME="${{ steps.acr.outputs.login-server }}/demo-repo:$IMAGE_TAG"
+        
+        docker build -t $IMAGE_NAME .
+        docker push $IMAGE_NAME
+        
+        echo "tag=$IMAGE_TAG" >> $GITHUB_OUTPUT
+        echo "name=$IMAGE_NAME" >> $GITHUB_OUTPUT
+
+  deploy:
+    needs: docker-build-push
+    runs-on: ubuntu-latest
+    environment: production
+    
+    outputs:
+      app-url: ${{ steps.deploy.outputs.url }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Azure login
+      uses: azure/login@v2
+      with:
+        client-id: ${{ env.AZURE_CLIENT_ID }}
+        tenant-id: ${{ env.AZURE_TENANT_ID }}
+        subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+    - name: Install Azure Developer CLI
+      uses: azure/setup-azd@v1.0.0
+
+    - name: Get Container App details
+      id: app-info
+      run: |
+        ACR_NAME=$(az acr list --resource-group rg-${{ env.AZURE_ENV_NAME }} --query "[0].name" -o tsv)
+        CA_NAME=$(az containerapp list --resource-group rg-${{ env.AZURE_ENV_NAME }} --query "[0].name" -o tsv)
+        
+        echo "acr-name=$ACR_NAME" >> $GITHUB_OUTPUT
+        echo "app-name=$CA_NAME" >> $GITHUB_OUTPUT
+
+    - name: Update Container App
+      id: deploy
+      run: |
+        IMAGE_NAME="${{ steps.app-info.outputs.acr-name }}.azurecr.io/demo-repo:${{ needs.docker-build-push.outputs.image-tag }}"
+        
+        az containerapp update \
+          --name ${{ steps.app-info.outputs.app-name }} \
+          --resource-group rg-${{ env.AZURE_ENV_NAME }} \
+          --image $IMAGE_NAME \
+          --set-env-vars \
+            NODE_ENV=production \
+            PORT=8080 \
+            JWT_SECRET=secretref:jwt-secret \
+            JWT_EXPIRE=7d
+        
+        APP_URL=$(az containerapp show \
+          --name ${{ steps.app-info.outputs.app-name }} \
+          --resource-group rg-${{ env.AZURE_ENV_NAME }} \
+          --query properties.configuration.ingress.fqdn -o tsv)
+        
+        echo "url=https://$APP_URL" >> $GITHUB_OUTPUT
+        echo "Deployed to: https://$APP_URL"
+
+    - name: Health check
+      run: |
+        echo "Waiting for deployment to be ready..."
+        sleep 30
+        
+        HEALTH_URL="${{ steps.deploy.outputs.url }}/api/health"
+        echo "Checking health at: $HEALTH_URL"
+        
+        for i in {1..10}; do
+          if curl -f -s $HEALTH_URL > /dev/null; then
+            echo "Health check passed!"
+            exit 0
+          fi
+          echo "Attempt $i/10 failed, retrying..."
+          sleep 10
+        done
+        
+        echo "Health check failed after 10 attempts"
+        exit 1
+
+  load-test:
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Azure login
+      uses: azure/login@v2
+      with:
+        client-id: ${{ env.AZURE_CLIENT_ID }}
+        tenant-id: ${{ env.AZURE_TENANT_ID }}
+        subscription-id: ${{ env.AZURE_SUBSCRIPTION_ID }}
+
+    - name: Get Load Test resource
+      id: load-test-info
+      run: |
+        LT_NAME=$(az load list --resource-group rg-${{ env.AZURE_ENV_NAME }} --query "[0].name" -o tsv)
+        LT_ID=$(az load show --name $LT_NAME --resource-group rg-${{ env.AZURE_ENV_NAME }} --query id -o tsv)
+        
+        echo "name=$LT_NAME" >> $GITHUB_OUTPUT
+        echo "id=$LT_ID" >> $GITHUB_OUTPUT
+
+    - name: Run Azure Load Testing
+      uses: azure/load-testing@v1
+      with:
+        loadTestConfigFile: 'loadtest/load-test-config.yaml'
+        loadTestResource: ${{ steps.load-test-info.outputs.name }}
+        resourceGroup: rg-${{ env.AZURE_ENV_NAME }}
+        env: |
+          [
+            {
+              "name": "webapp_url",
+              "value": "${{ needs.deploy.outputs.app-url }}"
+            }
+          ]
+
+    - name: Upload load test results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: load-test-results
+        path: ${{ github.workspace }}/loadTest

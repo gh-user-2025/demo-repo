@@ -1,0 +1,951 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1770026215784,289,Health Check,200,OK,Authentication Flow 1-1,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,284,0,270
+1770026215783,290,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,285,0,269
+1770026216079,7,Register User,400,Bad Request,Authentication Flow 1-1,text,false,,275,380,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,7,0,0
+1770026216123,4,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,4,0,0
+1770026216128,6,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,6,0,0
+1770026216136,74,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,74,0,0
+1770026216128,80,Login User,200,OK,Authentication Flow 1-1,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,80,0,0
+1770026216216,41,Health Check,200,OK,Authentication Flow 1-1,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,41,0,0
+1770026216215,43,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,43,0,0
+1770026216262,3,Register User,400,Bad Request,Authentication Flow 1-1,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026216262,4,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,4,0,0
+1770026216269,3,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026216275,108,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,107,0,0
+1770026216270,113,Login User,200,OK,Authentication Flow 1-1,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,113,0,0
+1770026216386,2,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026216384,8,Health Check,200,OK,Authentication Flow 1-1,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,8,0,0
+1770026216393,2,Register User,400,Bad Request,Authentication Flow 1-1,text,false,,275,381,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026216395,2,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026216398,164,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,163,0,0
+1770026216396,166,Login User,200,OK,Authentication Flow 1-1,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,166,0,0
+1770026216563,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026216567,2,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026216570,3,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026216566,8,Health Check,200,OK,Authentication Flow 1-1,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,8,0,0
+1770026216575,3,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026216575,6,Register User,400,Bad Request,Authentication Flow 1-1,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,6,0,0
+1770026216579,3,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,3,0,0
+1770026216583,6,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,6,0,0
+1770026216584,104,Login User,200,OK,Authentication Flow 1-1,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,104,0,0
+1770026216592,97,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,97,0,0
+1770026216691,3,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026216690,2,Health Check,200,OK,Authentication Flow 1-1,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026216698,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026216698,3,Register User,400,Bad Request,Authentication Flow 1-1,text,false,,275,381,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026216701,9,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,9,0,0
+1770026216711,159,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,159,0,0
+1770026216702,169,Login User,200,OK,Authentication Flow 1-1,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,169,0,0
+1770026216872,6,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026216879,7,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,7,0,0
+1770026216887,3,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,3,0,0
+1770026216891,2,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026216894,2,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026216897,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026216899,2,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026216902,2,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026216904,2,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026216907,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026216909,2,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026216912,1,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026216914,2,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026216916,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026216918,2,Login User (API Ops),400,Bad Request,API Operations 2-1,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026216921,1,Get Projects,401,Unauthorized,API Operations 2-1,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026216923,1,Get Tasks,401,Unauthorized,API Operations 2-1,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026216925,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-1,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026218725,25,Health Check,200,OK,Authentication Flow 1-2,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,25,0,20
+1770026218751,3,Register User,400,Bad Request,Authentication Flow 1-2,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026218755,125,Login User,200,OK,Authentication Flow 1-2,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,124,0,0
+1770026218742,138,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,138,0,18
+1770026218881,2,Health Check,200,OK,Authentication Flow 1-2,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026218882,2,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026218885,1,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026218884,3,Register User,400,Bad Request,Authentication Flow 1-2,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026218887,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026218889,118,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,118,0,0
+1770026218887,121,Login User,200,OK,Authentication Flow 1-2,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,121,0,0
+1770026219008,49,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,49,0,0
+1770026219009,48,Health Check,200,OK,Authentication Flow 1-2,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,48,0,0
+1770026219058,2,Register User,400,Bad Request,Authentication Flow 1-2,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026219058,3,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026219061,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026219063,124,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,124,0,0
+1770026219061,128,Login User,200,OK,Authentication Flow 1-2,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,128,0,0
+1770026219189,2,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026219190,2,Health Check,200,OK,Authentication Flow 1-2,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026219192,2,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026219192,2,Register User,400,Bad Request,Authentication Flow 1-2,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026219194,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026219197,169,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,169,0,0
+1770026219195,171,Login User,200,OK,Authentication Flow 1-2,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,171,0,0
+1770026219367,2,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026219367,2,Health Check,200,OK,Authentication Flow 1-2,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026219370,2,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026219370,2,Register User,400,Bad Request,Authentication Flow 1-2,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026219372,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026219374,118,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,118,0,0
+1770026219373,120,Login User,200,OK,Authentication Flow 1-2,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,120,0,0
+1770026219494,2,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026219497,2,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026219499,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026219502,1,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026219504,1,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026219506,2,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026219508,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026219510,2,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026219512,2,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026219514,1,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026219516,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026219518,1,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026219520,1,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026219522,1,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026219524,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026219526,1,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026219528,1,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026219530,1,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026219532,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026219534,1,Login User (API Ops),400,Bad Request,API Operations 2-2,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026219535,2,Get Projects,401,Unauthorized,API Operations 2-2,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026219537,2,Get Tasks,401,Unauthorized,API Operations 2-2,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026219539,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-2,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026221724,19,Health Check,200,OK,Authentication Flow 1-3,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,19,0,16
+1770026221746,3,Register User,400,Bad Request,Authentication Flow 1-3,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026221749,130,Login User,200,OK,Authentication Flow 1-3,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,130,0,0
+1770026221740,140,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,140,0,14
+1770026221881,3,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026221881,3,Health Check,200,OK,Authentication Flow 1-3,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,3,0,0
+1770026221884,2,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026221885,2,Register User,400,Bad Request,Authentication Flow 1-3,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026221887,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026221889,114,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,114,0,0
+1770026222004,52,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,52,0,0
+1770026221887,169,Login User,200,OK,Authentication Flow 1-3,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,169,0,0
+1770026222057,2,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026222058,2,Health Check,200,OK,Authentication Flow 1-3,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026222060,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026222060,2,Register User,400,Bad Request,Authentication Flow 1-3,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026222062,1,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026222064,131,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,131,0,0
+1770026222063,133,Login User,200,OK,Authentication Flow 1-3,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,133,0,0
+1770026222196,2,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026222197,2,Health Check,200,OK,Authentication Flow 1-3,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026222199,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026222200,2,Register User,400,Bad Request,Authentication Flow 1-3,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026222201,2,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026222203,172,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,172,0,0
+1770026222203,174,Login User,200,OK,Authentication Flow 1-3,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,173,0,0
+1770026222376,2,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026222378,1,Health Check,200,OK,Authentication Flow 1-3,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,1,0,0
+1770026222379,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026222380,2,Register User,400,Bad Request,Authentication Flow 1-3,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026222381,1,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026222383,125,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,124,0,0
+1770026222508,49,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,49,0,0
+1770026222383,173,Login User,200,OK,Authentication Flow 1-3,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,173,0,0
+1770026222558,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026222560,2,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026222563,1,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026222565,1,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026222567,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026222568,2,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026222570,2,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026222572,1,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026222574,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026222575,2,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026222577,1,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026222579,1,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026222580,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026222582,2,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026222584,1,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026222586,1,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026222587,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026222589,2,Login User (API Ops),400,Bad Request,API Operations 2-3,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026222592,1,Get Projects,401,Unauthorized,API Operations 2-3,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026222594,1,Get Tasks,401,Unauthorized,API Operations 2-3,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026222595,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-3,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026224723,17,Health Check,200,OK,Authentication Flow 1-4,text,true,,288,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,17,0,14
+1770026224741,2,Register User,400,Bad Request,Authentication Flow 1-4,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026224744,129,Login User,200,OK,Authentication Flow 1-4,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,129,0,0
+1770026224742,132,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,132,0,13
+1770026224874,2,Health Check,200,OK,Authentication Flow 1-4,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026224875,2,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026224877,2,Register User,400,Bad Request,Authentication Flow 1-4,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026224877,2,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026224880,120,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,119,0,0
+1770026224879,121,Login User,200,OK,Authentication Flow 1-4,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,121,0,0
+1770026225000,2,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026225001,2,Health Check,200,OK,Authentication Flow 1-4,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026225003,2,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026225003,2,Register User,400,Bad Request,Authentication Flow 1-4,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026225005,1,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026225007,171,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,171,0,0
+1770026225006,173,Login User,200,OK,Authentication Flow 1-4,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,173,0,0
+1770026225179,3,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,3,0,0
+1770026225180,2,Health Check,200,OK,Authentication Flow 1-4,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026225182,2,Register User,400,Bad Request,Authentication Flow 1-4,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026225182,3,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026225185,170,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,170,0,0
+1770026225185,172,Login User,200,OK,Authentication Flow 1-4,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,172,0,0
+1770026225356,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026225358,1,Health Check,200,OK,Authentication Flow 1-4,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,1,0,0
+1770026225359,1,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026225360,1,Register User,400,Bad Request,Authentication Flow 1-4,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,1,0,0
+1770026225361,1,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026225362,120,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,120,0,0
+1770026225362,121,Login User,200,OK,Authentication Flow 1-4,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,121,0,0
+1770026225483,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026225485,2,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026225487,2,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026225489,1,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026225491,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026225493,1,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026225495,1,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026225496,2,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026225498,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026225500,1,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026225502,1,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026225503,1,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026225505,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026225506,2,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026225508,1,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026225510,1,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026225511,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026225513,1,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026225515,1,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026225516,2,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026225518,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026225520,2,Login User (API Ops),400,Bad Request,API Operations 2-4,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026225523,1,Get Projects,401,Unauthorized,API Operations 2-4,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026225524,2,Get Tasks,401,Unauthorized,API Operations 2-4,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026225526,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-4,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026227722,13,Health Check,200,OK,Authentication Flow 1-5,text,true,,288,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,13,0,9
+1770026227735,2,Register User,400,Bad Request,Authentication Flow 1-5,text,false,,275,382,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026227738,124,Login User,200,OK,Authentication Flow 1-5,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,124,0,0
+1770026227739,124,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,124,0,10
+1770026227863,2,Health Check,200,OK,Authentication Flow 1-5,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026227864,2,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026227866,1,Register User,400,Bad Request,Authentication Flow 1-5,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,1,0,0
+1770026227866,2,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026227868,119,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,119,0,0
+1770026227868,120,Login User,200,OK,Authentication Flow 1-5,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,120,0,0
+1770026227988,3,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,3,0,0
+1770026227989,2,Health Check,200,OK,Authentication Flow 1-5,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026227991,2,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026227992,2,Register User,400,Bad Request,Authentication Flow 1-5,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026227993,2,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026227996,169,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,169,0,0
+1770026227994,172,Login User,200,OK,Authentication Flow 1-5,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,172,0,0
+1770026228166,2,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026228169,2,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026228172,1,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026228167,6,Health Check,200,OK,Authentication Flow 1-5,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,6,0,0
+1770026228174,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026228174,2,Register User,400,Bad Request,Authentication Flow 1-5,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026228175,2,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026228177,124,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,124,0,0
+1770026228176,126,Login User,200,OK,Authentication Flow 1-5,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,126,0,0
+1770026228302,2,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026228303,2,Health Check,200,OK,Authentication Flow 1-5,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026228304,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026228305,50,Register User,400,Bad Request,Authentication Flow 1-5,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,50,0,0
+1770026228306,50,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,50,0,0
+1770026228357,2,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026228359,122,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,122,0,0
+1770026228356,126,Login User,200,OK,Authentication Flow 1-5,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,126,0,0
+1770026228482,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026228484,2,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026228486,8,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,8,0,0
+1770026228495,2,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026228498,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026228500,1,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026228502,1,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026228504,1,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026228506,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026228507,2,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026228509,1,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026228511,1,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026228513,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026228515,1,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026228517,1,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026228518,2,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026228521,3,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,3,0,0
+1770026228524,33,Login User (API Ops),400,Bad Request,API Operations 2-5,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,33,0,0
+1770026228558,2,Get Projects,401,Unauthorized,API Operations 2-5,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026228560,2,Get Tasks,401,Unauthorized,API Operations 2-5,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026228562,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-5,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026230723,16,Health Check,200,OK,Authentication Flow 1-6,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,16,0,12
+1770026230739,2,Register User,400,Bad Request,Authentication Flow 1-6,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026230742,129,Login User,200,OK,Authentication Flow 1-6,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,129,0,0
+1770026230739,133,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,133,0,9
+1770026230872,1,Health Check,200,OK,Authentication Flow 1-6,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,1,0,0
+1770026230873,2,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026230874,1,Register User,400,Bad Request,Authentication Flow 1-6,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,1,0,0
+1770026230875,2,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026230877,118,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,118,0,0
+1770026230876,120,Login User,200,OK,Authentication Flow 1-6,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,120,0,0
+1770026230996,1,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026230997,2,Health Check,200,OK,Authentication Flow 1-6,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026230998,1,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026230999,2,Register User,400,Bad Request,Authentication Flow 1-6,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026231000,1,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026231001,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026231003,169,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,169,0,0
+1770026231001,172,Login User,200,OK,Authentication Flow 1-6,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,172,0,0
+1770026231173,2,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026231174,2,Health Check,200,OK,Authentication Flow 1-6,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,1,0,0
+1770026231176,1,Register User,400,Bad Request,Authentication Flow 1-6,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,1,0,0
+1770026231175,3,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026231179,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026231180,192,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,192,0,0
+1770026231178,195,Login User,200,OK,Authentication Flow 1-6,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,195,0,0
+1770026231373,1,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026231373,2,Health Check,200,OK,Authentication Flow 1-6,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026231375,1,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026231375,2,Register User,400,Bad Request,Authentication Flow 1-6,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026231377,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026231378,182,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,182,0,0
+1770026231377,184,Login User,200,OK,Authentication Flow 1-6,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,184,0,0
+1770026231561,2,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026231564,1,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026231565,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026231567,1,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026231569,1,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026231570,2,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026231572,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026231574,1,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026231576,1,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026231577,2,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026231579,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026231580,2,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026231582,2,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026231585,2,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026231587,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026231589,2,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026231592,1,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026231593,1,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026231594,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026231596,1,Login User (API Ops),400,Bad Request,API Operations 2-6,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026231597,2,Get Projects,401,Unauthorized,API Operations 2-6,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026231599,1,Get Tasks,401,Unauthorized,API Operations 2-6,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026231601,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-6,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026233722,12,Health Check,200,OK,Authentication Flow 1-7,text,true,,288,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,12,0,10
+1770026233735,1,Register User,400,Bad Request,Authentication Flow 1-7,text,false,,275,382,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,1,0,0
+1770026233737,129,Login User,200,OK,Authentication Flow 1-7,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,129,0,0
+1770026233740,127,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,127,0,11
+1770026233868,5,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,5,0,0
+1770026233867,6,Health Check,200,OK,Authentication Flow 1-7,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,6,0,0
+1770026233873,3,Register User,400,Bad Request,Authentication Flow 1-7,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026233873,4,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,4,0,0
+1770026233876,117,Login User,200,OK,Authentication Flow 1-7,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,117,0,0
+1770026233877,116,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,116,0,0
+1770026233995,6,Health Check,200,OK,Authentication Flow 1-7,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,3,0,0
+1770026234001,3,Register User,400,Bad Request,Authentication Flow 1-7,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026233997,8,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,8,0,0
+1770026234005,12,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,12,0,0
+1770026234017,150,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,150,0,0
+1770026234008,160,Login User,200,OK,Authentication Flow 1-7,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,160,0,0
+1770026234167,3,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026234169,2,Health Check,200,OK,Authentication Flow 1-7,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026234170,2,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026234171,2,Register User,400,Bad Request,Authentication Flow 1-7,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026234172,2,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026234174,135,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,135,0,0
+1770026234173,137,Login User,200,OK,Authentication Flow 1-7,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,137,0,0
+1770026234311,2,Health Check,200,OK,Authentication Flow 1-7,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026234309,6,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,6,0,0
+1770026234314,2,Register User,400,Bad Request,Authentication Flow 1-7,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026234315,40,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,40,0,0
+1770026234356,127,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,127,0,0
+1770026234316,168,Login User,200,OK,Authentication Flow 1-7,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,168,0,0
+1770026234484,2,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026234486,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026234488,2,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026234490,1,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026234491,2,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026234493,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026234495,1,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026234496,2,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026234499,1,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026234501,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026234502,2,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026234504,2,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026234506,1,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026234508,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026234509,1,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026234511,1,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026234513,1,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026234514,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026234516,1,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026234517,2,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026234519,1,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026234520,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026234522,1,Login User (API Ops),400,Bad Request,API Operations 2-7,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026234524,6,Get Projects,401,Unauthorized,API Operations 2-7,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,6,0,0
+1770026234531,2,Get Tasks,401,Unauthorized,API Operations 2-7,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026234533,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-7,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026236722,14,Health Check,200,OK,Authentication Flow 1-8,text,true,,288,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,14,0,11
+1770026236737,2,Register User,400,Bad Request,Authentication Flow 1-8,text,false,,275,380,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026236739,125,Login User,200,OK,Authentication Flow 1-8,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,125,0,0
+1770026236742,123,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,123,0,8
+1770026236865,2,Health Check,200,OK,Authentication Flow 1-8,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026236866,1,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026236867,2,Register User,400,Bad Request,Authentication Flow 1-8,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026236868,1,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026236870,118,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,118,0,0
+1770026236869,120,Login User,200,OK,Authentication Flow 1-8,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,120,0,0
+1770026236988,2,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026236989,2,Health Check,200,OK,Authentication Flow 1-8,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026236991,1,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026236991,2,Register User,400,Bad Request,Authentication Flow 1-8,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026236992,2,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026236994,180,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,180,0,0
+1770026236994,181,Login User,200,OK,Authentication Flow 1-8,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,181,0,0
+1770026237175,2,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026237175,2,Health Check,200,OK,Authentication Flow 1-8,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026237177,2,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026237177,2,Register User,400,Bad Request,Authentication Flow 1-8,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026237179,6,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,6,0,0
+1770026237185,173,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,173,0,0
+1770026237180,180,Login User,200,OK,Authentication Flow 1-8,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,180,0,0
+1770026237359,2,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026237361,2,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026237361,2,Health Check,200,OK,Authentication Flow 1-8,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026237363,1,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026237363,2,Register User,400,Bad Request,Authentication Flow 1-8,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026237364,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026237366,118,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,118,0,0
+1770026237365,120,Login User,200,OK,Authentication Flow 1-8,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,120,0,0
+1770026237485,1,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026237487,1,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026237488,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026237490,1,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026237492,1,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026237493,2,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026237495,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026237497,1,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026237499,1,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026237500,2,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026237502,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026237504,1,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026237505,2,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026237507,1,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026237508,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026237510,1,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026237512,1,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026237513,2,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026237515,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026237517,1,Login User (API Ops),400,Bad Request,API Operations 2-8,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026237518,2,Get Projects,401,Unauthorized,API Operations 2-8,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026237520,1,Get Tasks,401,Unauthorized,API Operations 2-8,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026237521,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-8,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026239722,12,Health Check,200,OK,Authentication Flow 1-9,text,true,,288,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,12,0,9
+1770026239735,2,Register User,400,Bad Request,Authentication Flow 1-9,text,false,,275,381,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026239737,133,Login User,200,OK,Authentication Flow 1-9,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,133,0,0
+1770026239742,129,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,129,0,12
+1770026239871,2,Health Check,200,OK,Authentication Flow 1-9,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026239872,1,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026239873,2,Register User,400,Bad Request,Authentication Flow 1-9,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026239874,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026239877,122,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,122,0,0
+1770026239875,125,Login User,200,OK,Authentication Flow 1-9,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,125,0,0
+1770026240000,1,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026240001,1,Health Check,200,OK,Authentication Flow 1-9,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,1,0,0
+1770026240002,1,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026240003,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240003,2,Register User,400,Bad Request,Authentication Flow 1-9,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026240005,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026240006,172,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,172,0,0
+1770026240006,173,Login User,200,OK,Authentication Flow 1-9,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,172,0,0
+1770026240178,2,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026240179,2,Health Check,200,OK,Authentication Flow 1-9,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026240181,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240181,2,Register User,400,Bad Request,Authentication Flow 1-9,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026240183,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026240185,175,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,175,0,0
+1770026240184,177,Login User,200,OK,Authentication Flow 1-9,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,177,0,0
+1770026240361,2,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026240362,2,Health Check,200,OK,Authentication Flow 1-9,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026240363,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240365,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026240365,2,Register User,400,Bad Request,Authentication Flow 1-9,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026240366,2,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026240368,126,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,126,0,0
+1770026240368,126,Login User,200,OK,Authentication Flow 1-9,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,126,0,0
+1770026240494,2,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026240497,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026240499,2,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026240501,1,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026240503,3,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026240506,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026240508,2,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026240510,2,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026240512,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240514,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026240516,1,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026240517,2,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026240519,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240520,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026240522,1,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026240523,2,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026240525,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240527,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026240528,1,Login User (API Ops),400,Bad Request,API Operations 2-9,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026240529,2,Get Projects,401,Unauthorized,API Operations 2-9,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026240531,1,Get Tasks,401,Unauthorized,API Operations 2-9,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026240532,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-9,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026242722,10,Health Check,200,OK,Authentication Flow 1-10,text,true,,288,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,10,0,8
+1770026242733,2,Register User,400,Bad Request,Authentication Flow 1-10,text,false,,275,382,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026242735,128,Login User,200,OK,Authentication Flow 1-10,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,128,0,0
+1770026242739,125,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,367,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,125,0,7
+1770026242864,3,Health Check,200,OK,Authentication Flow 1-10,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,3,0,0
+1770026242865,2,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026242867,2,Register User,400,Bad Request,Authentication Flow 1-10,text,false,,275,381,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026242867,2,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026242869,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026242871,118,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,118,0,0
+1770026242869,121,Login User,200,OK,Authentication Flow 1-10,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,121,0,0
+1770026242990,2,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026242991,1,Health Check,200,OK,Authentication Flow 1-10,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,1,0,0
+1770026242992,1,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026242993,1,Register User,400,Bad Request,Authentication Flow 1-10,text,false,,275,381,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,1,0,0
+1770026242994,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026242996,180,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,180,0,0
+1770026242995,182,Login User,200,OK,Authentication Flow 1-10,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,182,0,0
+1770026243178,2,Health Check,200,OK,Authentication Flow 1-10,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,2,0,0
+1770026243177,3,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026243180,2,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026243180,2,Register User,400,Bad Request,Authentication Flow 1-10,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,2,0,0
+1770026243182,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026243184,118,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,118,0,0
+1770026243183,120,Login User,200,OK,Authentication Flow 1-10,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,120,0,0
+1770026243303,53,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,53,0,0
+1770026243303,53,Health Check,200,OK,Authentication Flow 1-10,text,true,,288,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/health,53,0,0
+1770026243356,2,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026243356,3,Register User,400,Bad Request,Authentication Flow 1-10,text,false,,275,382,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/register,3,0,0
+1770026243358,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026243360,122,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,122,0,0
+1770026243359,124,Login User,200,OK,Authentication Flow 1-10,text,true,,473,320,1,2,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,124,0,0
+1770026243483,2,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026243485,2,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026243487,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026243489,1,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026243490,2,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026243492,1,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026243494,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026243496,1,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026243498,1,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026243499,1,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026243501,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026243502,1,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026243503,2,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026243505,1,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026243506,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026243508,1,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026243509,1,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026243510,1,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026243512,0,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,0,0,0
+1770026243513,1,Login User (API Ops),400,Bad Request,API Operations 2-10,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026243514,1,Get Projects,401,Unauthorized,API Operations 2-10,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026243516,1,Get Tasks,401,Unauthorized,API Operations 2-10,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026243517,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-10,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245742,13,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,13,0,9
+1770026245756,2,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026245758,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245760,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245762,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245764,1,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026245765,2,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026245767,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245769,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245770,1,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026245772,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245773,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245775,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245776,1,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026245778,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245779,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245780,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245782,1,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026245783,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245785,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245786,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245788,1,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026245789,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245791,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245792,2,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026245794,2,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026245796,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245797,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245799,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245801,1,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026245802,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245803,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245805,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245806,2,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026245808,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245809,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026245811,1,Login User (API Ops),400,Bad Request,API Operations 2-11,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026245813,2,Get Projects,401,Unauthorized,API Operations 2-11,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026245816,1,Get Tasks,401,Unauthorized,API Operations 2-11,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026245817,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-11,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248742,16,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,15,0,13
+1770026248758,2,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026248760,1,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248762,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248764,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248765,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248766,2,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026248768,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248770,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248772,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248774,1,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248775,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248777,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248778,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248779,1,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248781,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248782,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248783,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248785,3,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026248788,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248790,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248791,2,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026248793,2,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248795,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248796,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248798,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248800,1,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248801,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026248803,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248805,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248806,1,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248808,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248809,2,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026248811,1,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026248813,1,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026248814,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026248816,1,Login User (API Ops),400,Bad Request,API Operations 2-12,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026248817,2,Get Projects,401,Unauthorized,API Operations 2-12,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026248819,2,Get Tasks,401,Unauthorized,API Operations 2-12,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026248821,9,Get Dashboard Analytics,401,Unauthorized,API Operations 2-12,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,9,0,0
+1770026251741,13,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,13,0,9
+1770026251755,8,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,8,0,0
+1770026251764,5,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,5,0,0
+1770026251769,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026251771,4,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,4,0,0
+1770026251775,2,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026251777,1,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026251779,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026251781,2,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026251784,2,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026251789,2,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026251791,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026251793,2,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026251795,4,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,4,0,0
+1770026251800,4,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,4,0,0
+1770026251804,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026251806,1,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026251808,1,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026251809,2,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026251811,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026251813,2,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026251815,2,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026251817,1,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026251819,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026251821,1,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026251822,2,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026251824,1,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026251826,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026251827,2,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026251829,2,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026251831,1,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026251833,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026251834,2,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026251836,1,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026251838,1,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026251839,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026251841,2,Login User (API Ops),400,Bad Request,API Operations 2-13,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026251843,2,Get Projects,401,Unauthorized,API Operations 2-13,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026251845,2,Get Tasks,401,Unauthorized,API Operations 2-13,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026251847,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-13,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254741,11,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,11,0,8
+1770026254752,4,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,4,0,0
+1770026254757,3,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,3,0,0
+1770026254760,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254762,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254764,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254765,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254766,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026254768,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254770,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254771,2,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026254773,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254774,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254776,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254777,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254779,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,0,0,0
+1770026254780,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254781,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254783,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254784,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254786,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254787,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254789,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254790,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254792,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254793,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254795,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254796,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254798,2,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026254800,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254802,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254803,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254805,2,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026254808,1,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026254809,2,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026254811,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026254812,1,Login User (API Ops),400,Bad Request,API Operations 2-14,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026254814,2,Get Projects,401,Unauthorized,API Operations 2-14,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026254816,1,Get Tasks,401,Unauthorized,API Operations 2-14,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026254818,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-14,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026257738,11,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,11,0,8
+1770026257750,2,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026257753,4,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,4,0,0
+1770026257757,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026257759,2,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026257761,2,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026257763,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257764,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026257767,1,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026257768,2,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026257770,2,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026257772,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026257774,1,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026257776,2,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026257778,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257779,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026257781,1,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026257782,2,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026257784,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257785,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026257787,2,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026257789,1,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026257791,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257792,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026257794,3,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,3,0,0
+1770026257797,2,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026257799,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257800,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026257802,1,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026257804,1,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026257805,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257806,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026257808,1,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026257810,1,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026257812,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257813,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026257815,1,Login User (API Ops),400,Bad Request,API Operations 2-15,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026257817,1,Get Projects,401,Unauthorized,API Operations 2-15,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026257818,1,Get Tasks,401,Unauthorized,API Operations 2-15,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026257820,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-15,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260738,12,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,12,0,9
+1770026260751,3,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026260755,2,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026260757,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026260759,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260761,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260762,2,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026260764,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260766,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260768,2,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026260770,2,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026260772,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260773,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260775,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260777,1,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026260778,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260779,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260781,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260783,1,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026260784,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260786,1,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026260787,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260789,1,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026260790,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260791,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260793,2,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026260795,1,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026260797,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026260798,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260800,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260801,2,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026260803,3,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,3,0,0
+1770026260806,1,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026260808,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260810,1,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026260811,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026260814,2,Login User (API Ops),400,Bad Request,API Operations 2-16,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026260816,1,Get Projects,401,Unauthorized,API Operations 2-16,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026260817,2,Get Tasks,401,Unauthorized,API Operations 2-16,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026260819,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-16,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026263742,10,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,10,0,8
+1770026263753,3,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026263757,2,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026263759,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026263761,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263763,1,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026263764,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263765,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026263767,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263769,1,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026263770,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263772,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026263773,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263774,2,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026263776,2,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026263778,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026263780,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263781,2,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026263783,2,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026263785,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026263787,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263788,2,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026263790,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263791,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026263793,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263795,1,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026263796,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263797,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026263799,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263800,1,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026263802,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263803,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026263805,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263806,1,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026263808,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263809,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026263810,1,Login User (API Ops),400,Bad Request,API Operations 2-17,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026263812,1,Get Projects,401,Unauthorized,API Operations 2-17,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026263813,1,Get Tasks,401,Unauthorized,API Operations 2-17,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026263815,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-17,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026266738,12,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,12,0,8
+1770026266750,2,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026266753,2,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026266755,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026266758,1,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026266759,2,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026266761,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266763,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026266764,2,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026266766,1,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026266768,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266769,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026266771,6,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,6,0,0
+1770026266777,1,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026266778,2,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026266780,4,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,4,0,0
+1770026266785,1,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026266786,2,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026266788,2,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026266790,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026266792,1,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026266794,1,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026266795,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266797,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026266799,2,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026266801,1,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026266803,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266805,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026266807,1,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026266808,2,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026266811,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266812,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026266813,1,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026266815,1,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026266816,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266817,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026266819,1,Login User (API Ops),400,Bad Request,API Operations 2-18,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026266820,1,Get Projects,401,Unauthorized,API Operations 2-18,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026266822,1,Get Tasks,401,Unauthorized,API Operations 2-18,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026266823,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-18,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269738,18,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,18,0,15
+1770026269757,2,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026269760,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269762,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026269764,2,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026269767,1,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026269768,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269770,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269771,1,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026269773,1,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026269775,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269776,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269777,1,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026269778,2,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026269780,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269781,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269782,2,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026269785,1,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026269787,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269788,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269789,2,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026269791,2,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026269793,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269795,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269797,1,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026269799,1,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026269801,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269803,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026269805,2,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026269807,2,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026269809,2,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026269811,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026269813,1,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026269815,1,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026269816,2,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026269818,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026269819,2,Login User (API Ops),400,Bad Request,API Operations 2-19,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026269821,1,Get Projects,401,Unauthorized,API Operations 2-19,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026269823,1,Get Tasks,401,Unauthorized,API Operations 2-19,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026269824,3,Get Dashboard Analytics,401,Unauthorized,API Operations 2-19,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,3,0,0
+1770026272739,9,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,367,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,9,0,7
+1770026272749,3,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,3,0,0
+1770026272753,2,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026272756,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272757,2,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026272759,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272760,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272761,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026272763,1,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026272765,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272766,2,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026272768,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272769,2,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026272771,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272772,2,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,2,0,0
+1770026272774,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272775,1,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026272776,2,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026272778,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272779,2,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,2,0,0
+1770026272781,2,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,2,0,0
+1770026272783,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272785,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272786,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272787,1,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026272789,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272790,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272792,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272793,1,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026272795,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272796,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272797,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272799,1,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026272800,1,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,1,0,0
+1770026272801,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272803,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0
+1770026272804,1,Login User (API Ops),400,Bad Request,API Operations 2-20,text,false,,274,362,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/auth/login,1,0,0
+1770026272805,2,Get Projects,401,Unauthorized,API Operations 2-20,text,false,,260,235,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/projects,2,0,0
+1770026272807,1,Get Tasks,401,Unauthorized,API Operations 2-20,text,false,,260,232,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/tasks,1,0,0
+1770026272808,1,Get Dashboard Analytics,401,Unauthorized,API Operations 2-20,text,false,,260,246,1,1,https://ca-api-100-ai-sdlc.orangepebble-a7745b8a.japaneast.azurecontainerapps.io/api/analytics/dashboard,1,0,0

@@ -1,0 +1,12 @@
+version: v0.1
+testName: ProjectManagementAPILoadTest
+testPlan: load-test.jmx
+description: 'Load test for Project Management System API endpoints'
+engineInstances: 1
+failureCriteria:
+  - avg(response_time_ms) > 2000
+  - percentage(error) > 5
+  - avg(latency) > 1500
+autoStop:
+  errorPercentage: 90
+  timeWindow: 60
